@@ -1,0 +1,15 @@
+double calculadoraimc(double altura, double peso) {
+
+    return (peso / (altura * altura));
+}
+void main () {
+
+ double numero1 = 1.80;
+
+  double numero2 = 75.5;
+
+   double resultado = calculadoraimc(numero1, numero2);
+
+ print("O resultado é $resultado");
+
+}
